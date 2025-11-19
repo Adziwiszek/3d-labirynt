@@ -1,5 +1,5 @@
-
 #pragma once
+
 #include <GL/glew.h>
 #include <GL/gl.h>
 #include <GL/glext.h>
@@ -7,6 +7,7 @@
 #include <glm/fwd.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
+#include <vector>
 
 static GLfloat vertex_buffer_octahedron[18] = {0.5, 0.0, 0.0, -0.5, 0.0,  0.0,
                                                0.0, 0.5, 0.0, 0.0,  -0.5, 0.0,
